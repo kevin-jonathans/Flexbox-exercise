@@ -120,6 +120,7 @@ button{
     padding: 10px;
     gap: 20px;
     justify-content: center;
+    align-items: baseline;
     flex-wrap: wrap;
 }
 
@@ -145,6 +146,7 @@ button{
     width: 200px;
     height: 200px;
     margin-bottom: 20px;
+    object-fit: cover;
 }
 
 /* REVIEWS */
@@ -173,6 +175,13 @@ button{
     padding-top: 20px;
     display: flex;
     justify-content: flex-end;
+}
+
+.reviews .container img{
+    height: auto;
+    width: 300px;
+    padding-top: 50px;
+    margin: 0 auto;
 }
 
 /* REGISTER */
